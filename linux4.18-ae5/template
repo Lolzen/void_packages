@@ -269,7 +269,7 @@ do_install() {
 	# ... and run depmod again.
 	depmod -b ${DESTDIR}/usr -F System.map ${_kernver}
 }
-linux4.18-headers_package() {
+linux4.18-ae5-headers_package() {
 	preserve=yes
 	nostrip=yes
 	noshlibprovides=yes
@@ -279,7 +279,7 @@ linux4.18-headers_package() {
 		vmove usr/lib/modules/${_kernver}/build
 	}
 }
-linux4.18-dbg_package() {
+linux4.18-ae5-dbg_package() {
 	preserve=yes
 	nostrip=yes
 	noverifyrdeps=yes
