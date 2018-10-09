@@ -2,15 +2,6 @@ diff --git a/linux-4.18.12/sound/pci/hda/patch_ca0132.c b/patch_ca0132.c
 index 321e95c..1a13cea 100644
 --- a/sound/pci/hda/patch_ca0132.c
 +++ b/sound/pci/hda/patch_ca0132.c
-@@ -32,7 +32,7 @@
- #include <linux/io.h>
- #include <linux/pci.h>
- #include <sound/core.h>
--#include "hda_codec.h"
-+#include <sound/hda_codec.h>
- #include "hda_local.h"
- #include "hda_auto_parser.h"
- #include "hda_jack.h"
 @@ -81,12 +81,12 @@
  #define SCP_GET    1
  
