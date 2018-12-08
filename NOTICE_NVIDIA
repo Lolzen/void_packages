@@ -1,0 +1,3 @@
+go to /path/to/void-packages/common/shalibs and add the following lines to be able to build nvidia415.22:
+libnvidia-tls.so.415.22 nvidia-libs-415.22_1 ignore
+libnvidia-fatbinaryloader.so.415.22 nvidia-libs-415.22_1 ignore
